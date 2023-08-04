@@ -1,3 +1,4 @@
+import 'package:dashboardandroid/pages/detail_page.dart';
 import 'package:dashboardandroid/pages/form_page.dart';
 import 'package:dashboardandroid/pages/home_page.dart';
 import 'package:flutter/material.dart';
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: FormPage(),
+      home: DetailPage(),
     );
   }
 }
